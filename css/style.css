@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: beige;
     
 }
 a {
@@ -12,6 +13,7 @@ a {
 
 .main {
     height: 100%;
+    background-image: url(http://images.clipartpanda.com/dog-house-clipart-black-and-white-black_and_white_silhouette_of_a_playing_cartoon_dog_0071-0902-0318-1127_TN.jpg);
 }
 .social-image{
     width: 30px;
