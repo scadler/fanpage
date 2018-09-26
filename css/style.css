@@ -5,17 +5,40 @@ html {
 body {
     height: 100%;
     background-color: beige;
-    
+    background-image: url(https://www.freeiconspng.com/minicovers/animal-paw-vector-icon-animals-icons-icons-download-0.png)
 }
 a {
     text-decoration: none;
 }
-
 .main {
     height: 100%;
-    background-image: url(http://images.clipartpanda.com/dog-house-clipart-black-and-white-black_and_white_silhouette_of_a_playing_cartoon_dog_0071-0902-0318-1127_TN.jpg);
 }
-.social-image{
+.social-image {
     width: 30px;
     margin: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery{
+    display: flex;
+}
+.thumbnail-image{
+    width: 100%;
+}
+aboutMain{
+    display: flex;
+}
+rightPane{
+    width:30%;
+}
+leftPane{
+    width:70%;
 }
