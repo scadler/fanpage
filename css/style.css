@@ -12,6 +12,7 @@ a {
 }
 .main {
     height: 100%;
+    display: flex;
 }
 .social-image {
     width: 30px;
@@ -21,24 +22,47 @@ a {
     display: flex;
     justify-content: center;
     width: 100%;
+    background-color: beige;
+    font-family: 'Concert One', cursive;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
+    background-color: beige;
 }
 .gallery{
     display: flex;
+
 }
 .thumbnail-image{
     width: 100%;
 }
-aboutMain{
+.thumbnail{
+    padding: 10px;
+}
+.aboutMain{
     display: flex;
+    justify-content: center;
+    width: 500px;
 }
-rightPane{
-    width:30%;
+.rightPane{
+    width:10%;
 }
-leftPane{
-    width:70%;
+.leftPane{
+    width:80%;
+    border: 3px solid gray;
+    background-color: beige;
 }
+h1{
+   color: #505050;
+   
+}
+
+#mainImg{
+    height: 100%;
+    width: 80%;
+    justify-content: center;
+}
+
+    
